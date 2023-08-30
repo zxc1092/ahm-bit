@@ -1,0 +1,11 @@
+/**
+ * @see https://bit.dev/reference/typescript/typescript-config
+ */
+{
+  "extends": "@teambit/react.react-env/config/tsconfig.json",
+  "include": ["**/*", "**/*.json"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "typeRoots": ["../node_modules/@types", "./src/types"]
+  }
+}

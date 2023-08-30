@@ -1,0 +1,43 @@
+---
+description: A MlpSpecs component.
+---
+
+import { MlpSpecs } from './mlp-specs';
+
+A component that does something special and renders text in a div.
+
+### Component usage
+
+```js
+<MlpSpecs
+  title="Exceptionally designed. elegantly electric."
+  specs={[
+    { uppelabel: 'Over', value: '300', lowerLabel: 'miles per charge' },
+    { uppelabel: 'Over', value: '500', lowerLabel: 'horsepower on Type-S' },
+    {
+      uppelabel: 'Up to',
+      value: '79',
+      lowerLabel: 'miles per chrage in 10 minutes',
+    },
+    { uppelabel: 'Up to', value: '10', lowerLabel: 'year battery warranty' },
+  ]}
+/>
+```
+
+### Render hello world!
+
+```js live
+<MlpSpecs
+  title="Exceptionally designed. elegantly electric."
+  specs={[
+    { uppelabel: 'Over', value: '300', lowerLabel: 'miles per charge' },
+    { uppelabel: 'Over', value: '500', lowerLabel: 'horsepower on Type-S' },
+    {
+      uppelabel: 'Up to',
+      value: '79',
+      lowerLabel: 'miles per chrage in 10 minutes',
+    },
+    { uppelabel: 'Up to', value: '10', lowerLabel: 'year battery warranty' },
+  ]}
+/>
+```
