@@ -12,6 +12,7 @@ export const configAcura: Theme = {
     primary: '#e82c2a',
     primaryDark: '#730e0c',
     primaryLight: '#f38d8c',
+    secondaryDark: '#000',
     secondary: '#000',
     secondaryLight: '#404040',
     white: '#fff',
@@ -20,16 +21,19 @@ export const configAcura: Theme = {
   },
   buttons: {
     primary: {
+      fontFamily: 'primary',
       color: 'white',
       bg: 'primary',
       borderRadius: 0,
       px: 16,
       py: 8,
+      cursor: 'pointer',
       '&:hover': {
         bg: 'text',
       },
     },
     primaryOutlined: {
+      fontFamily: 'primary',
       bg: 'white',
       color: 'primary',
       borderRadius: 0,
@@ -44,6 +48,7 @@ export const configAcura: Theme = {
       },
     },
     secondary: {
+      fontFamily: 'primary',
       color: 'white',
       fill: 'white',
       bg: 'secondary',
@@ -60,6 +65,7 @@ export const configAcura: Theme = {
       },
     },
     secondaryOutlined: {
+      fontFamily: 'primary',
       bg: 'white',
       color: 'secondary',
       borderRadius: 0,

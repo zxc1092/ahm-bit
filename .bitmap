@@ -17,31 +17,31 @@
     },
     "modules/hero-vehicle": {
         "scope": "ahm-bit.shared-library",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "shared-library/modules/hero-vehicle"
     },
     "modules/mlp-specs": {
         "scope": "ahm-bit.shared-library",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "shared-library/modules/mlp-specs"
     },
     "modules/packages-slider": {
         "scope": "ahm-bit.shared-library",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "shared-library/modules/packages-slider"
     },
     "pages/mlp": {
         "scope": "ahm-bit.shared-library",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "shared-library/pages/mlp"
     },
     "theme/theme-ui": {
         "scope": "ahm-bit.shared-library",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "shared-library/theme/theme-ui"
     },

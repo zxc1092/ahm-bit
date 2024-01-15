@@ -22,6 +22,7 @@ export const configHonda: Theme = {
 
   buttons: {
     primary: {
+      fontFamily: 'primary',
       color: 'white',
       bg: 'primary',
       borderRadius: 24,
@@ -33,6 +34,7 @@ export const configHonda: Theme = {
       },
     },
     primaryOutlined: {
+      fontFamily: 'primary',
       bg: 'white',
       color: 'primary',
       borderRadius: 24,
@@ -47,6 +49,7 @@ export const configHonda: Theme = {
       },
     },
     secondary: {
+      fontFamily: 'primary',
       color: 'white',
       fill: 'white',
       bg: 'secondary',
@@ -63,6 +66,7 @@ export const configHonda: Theme = {
       },
     },
     secondaryOutlined: {
+      fontFamily: 'primary',
       bg: 'white',
       color: 'secondary',
       fill: 'secondary',

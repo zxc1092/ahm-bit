@@ -66,14 +66,16 @@ export const configDefault: Theme = {
     heading: 1.125,
   },
   letterSpacings: {
-    body: 'normalpx',
+    body: 'normal',
     caps: '0.2em',
   },
   buttons: {
     primary: {
+      fontFamily: 'primary',
       color: 'white',
       bg: 'primary',
       borderRadius: 0,
+      cursor: 'pointer',
       px: 16,
       py: 8,
       '&:hover': {
@@ -95,6 +97,7 @@ export const configDefault: Theme = {
       },
     },
     secondary: {
+      fontFamily: 'primary',
       color: 'white',
       bg: 'secondary',
       borderRadius: 0,
@@ -106,6 +109,7 @@ export const configDefault: Theme = {
       },
     },
     secondaryOutlined: {
+      fontFamily: 'primary',
       bg: 'white',
       color: 'secondary',
       borderRadius: 0,
@@ -158,6 +162,18 @@ export const configDefault: Theme = {
       fontSize: [36, 40],
       lineHeight: 'heading',
     },
+    title5: {
+      fontFamily: 'primary',
+      fontWeight: 'light',
+      fontSize: [32],
+      lineHeight: 'heading',
+    },
+    title6: {
+      fontFamily: 'primary',
+      fontWeight: 'light',
+      fontSize: [28],
+      lineHeight: 'heading',
+    },
     subtitle1: {
       fontFamily: 'primary',
       fontWeight: 'regular',
@@ -186,13 +202,19 @@ export const configDefault: Theme = {
     body3: {
       fontFamily: 'primary',
       fontWeight: 'regular',
-      fontSize: 16,
+      fontSize: [16],
       lineHeight: 'body',
     },
     body4: {
       fontFamily: 'primary',
       fontWeight: 'light',
-      fontSize: 14,
+      fontSize: [14],
+      lineHeight: 'body',
+    },
+    body5: {
+      fontFamily: 'primary',
+      fontWeight: 'light',
+      fontSize: [12],
       lineHeight: 'body',
     },
   },
